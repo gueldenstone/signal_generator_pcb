@@ -1,3 +1,5 @@
 (sym_lib_table
   (lib (name cmods7-25)(type Legacy)(uri ${KIPRJMOD}/cmods7-25.lib)(options "")(descr ""))
+  (lib (name lm2611)(type Legacy)(uri ${KIPRJMOD}/lm2611.lib)(options "")(descr ""))
+  (lib (name tps72301)(type Legacy)(uri ${KIPRJMOD}/tps72301.lib)(options "")(descr ""))
 )

@@ -1,0 +1,326 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# DSC-Supply-eagle-import_+3V3D
+#
+DEF DSC-Supply-eagle-import_+3V3D #V 0 40 Y Y 1 L P
+F0 "#V" 0 0 50 H I C CNN
+F1 "DSC-Supply-eagle-import_+3V3D" -125 100 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 0 45 1 0 16 N
+P 2 1 0 0 0 -100 0 -43 N
+X +3V3D 1 0 -100 0 U 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# DSC-Supply-eagle-import_+5V
+#
+DEF DSC-Supply-eagle-import_+5V #V 0 40 Y Y 1 L P
+F0 "#V" 0 0 50 H I C CNN
+F1 "DSC-Supply-eagle-import_+5V" -100 100 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 0 45 1 0 16 N
+P 2 1 0 0 0 -100 0 -43 N
+X +5V 1 0 -100 0 U 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# DSC-Supply-eagle-import_-5V
+#
+DEF DSC-Supply-eagle-import_-5V #V 0 40 Y Y 1 L P
+F0 "#V" 0 0 50 H I C CNN
+F1 "DSC-Supply-eagle-import_-5V" -75 -175 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 0 45 1 0 16 N
+P 2 1 0 0 0 100 0 43 N
+X -5V 1 0 100 0 D 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# DSC-Supply-eagle-import_AGND
+#
+DEF DSC-Supply-eagle-import_AGND #AGND 0 40 Y Y 1 L P
+F0 "#AGND" 0 0 50 H I C CNN
+F1 "DSC-Supply-eagle-import_AGND" -125 -100 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -37 75 0 0 N
+P 2 1 0 0 0 0 37 75 N
+P 2 1 0 0 0 75 -37 75 N
+P 2 1 0 0 0 100 0 75 N
+P 2 1 0 0 37 75 0 75 N
+X AGND 1 0 100 0 D 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# DSC-Supply-eagle-import_AVCC+
+#
+DEF DSC-Supply-eagle-import_AVCC+ #V 0 40 Y Y 1 L P
+F0 "#V" 0 0 50 H I C CNN
+F1 "DSC-Supply-eagle-import_AVCC+" -125 100 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 0 45 1 0 16 N
+P 2 1 0 0 0 -100 0 -43 N
+X AVCC+ 1 0 -100 0 U 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# DSC-Supply-eagle-import_AVCC-
+#
+DEF DSC-Supply-eagle-import_AVCC- #V 0 40 Y Y 1 L P
+F0 "#V" 0 0 50 H I C CNN
+F1 "DSC-Supply-eagle-import_AVCC-" -125 -175 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 0 45 1 0 16 N
+P 2 1 0 0 0 100 0 43 N
+X AVCC- 1 0 100 0 D 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# DSC-Supply-eagle-import_C-EUC0805
+#
+DEF DSC-Supply-eagle-import_C-EUC0805 C 0 40 Y Y 1 L N
+F0 "C" 60 15 59 H V L BNN
+F1 "DSC-Supply-eagle-import_C-EUC0805" 60 -185 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -80 -80 80 -60 1 0 0 F
+S -80 -40 80 -20 1 0 0 F
+P 2 1 0 0 0 -100 0 -80 N
+P 2 1 0 0 0 0 0 -20 N
+X 1 1 0 100 100 D 0 0 1 0 P
+X 2 2 0 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# DSC-Supply-eagle-import_CPOL-EU153CLV-0405
+#
+DEF DSC-Supply-eagle-import_CPOL-EU153CLV-0405 C 0 40 Y Y 1 L N
+F0 "C" 45 19 59 H V L BNN
+F1 "DSC-Supply-eagle-import_CPOL-EU153CLV-0405" 45 -181 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 900 -23 16 42 0 1 0 + Normal 0 L B
+S -65 -100 65 -65 1 0 0 F
+P 2 1 0 0 -60 -35 60 -35 N
+P 2 1 0 0 -60 0 -60 -35 N
+P 2 1 0 0 -60 0 60 0 N
+P 2 1 0 0 60 -35 60 0 N
+X + + 0 100 100 D 0 0 1 0 P
+X - - 0 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# DSC-Supply-eagle-import_DINA3_L
+#
+DEF DSC-Supply-eagle-import_DINA3_L #FRAME 0 40 Y Y 2 L N
+F0 "#FRAME" 0 0 50 H I C CNN
+F1 "DSC-Supply-eagle-import_DINA3_L" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 700 750 85 0 2 0 >DRAWING_NAME Normal 0 L B
+T 0 500 50 85 0 2 0 >LAST_DATE_TIME Normal 0 L B
+T 0 3400 50 85 0 2 0 >SHEET Normal 0 L B
+T 0 50 50 85 0 2 0 Date: Normal 0 L B
+T 0 50 450 85 0 2 0 "Document Number:" Normal 0 L B
+T 0 3500 450 85 0 2 0 REV: Normal 0 L B
+T 0 2850 50 85 0 2 0 Sheet: Normal 0 L B
+T 0 50 750 85 0 2 0 TITLE: Normal 0 L B
+P 2 2 0 0 0 0 0 200 N
+P 2 2 0 0 0 0 2800 0 N
+P 2 2 0 0 0 200 0 600 N
+P 2 2 0 0 0 200 2800 200 N
+P 2 2 0 0 0 600 0 900 N
+P 2 2 0 0 0 900 0 1400 N
+P 2 2 0 0 0 900 4000 900 N
+P 2 2 0 0 2800 0 4000 0 N
+P 2 2 0 0 2800 200 2800 0 N
+P 2 2 0 0 2800 200 3450 200 N
+P 2 2 0 0 3450 200 4000 200 N
+P 2 2 0 0 3450 600 0 600 N
+P 2 2 0 0 3450 600 3450 200 N
+P 2 2 0 0 4000 200 4000 0 N
+P 2 2 0 0 4000 600 3450 600 N
+P 2 2 0 0 4000 600 4000 200 N
+P 2 2 0 0 4000 900 4000 600 N
+P 2 2 0 0 4000 1400 0 1400 N
+P 2 2 0 0 4000 1400 4000 900 N
+ENDDRAW
+ENDDEF
+#
+# DSC-Supply-eagle-import_GND
+#
+DEF DSC-Supply-eagle-import_GND #GND 0 40 Y Y 1 L P
+F0 "#GND" 0 0 50 H I C CNN
+F1 "DSC-Supply-eagle-import_GND" -100 -100 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -75 0 75 0 N
+X GND 1 0 100 100 D 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# DSC-Supply-eagle-import_L-EU
+#
+DEF DSC-Supply-eagle-import_L-EU L 0 40 Y Y 1 L N
+F0 "L" -59 -150 59 V V L BNN
+F1 "DSC-Supply-eagle-import_L-EU" 130 -150 59 V V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -40 -140 40 140 1 0 0 F
+X 1 1 0 200 100 D 0 0 1 0 P
+X 2 2 0 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# DSC-Supply-eagle-import_LM2611
+#
+DEF DSC-Supply-eagle-import_LM2611 IC 0 40 Y Y 1 L N
+F0 "IC" -500 500 42 H V L BNN
+F1 "DSC-Supply-eagle-import_LM2611" 200 500 42 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -500 -400 -500 400 N
+P 2 1 0 0 -500 400 500 400 N
+P 2 1 0 0 500 -400 -500 -400 N
+P 2 1 0 0 500 400 500 -400 N
+X SW 1 700 200 200 L 50 50 1 0 B
+X GND 2 0 -600 200 U 50 50 1 0 W
+X NFB 3 700 -200 200 L 50 50 1 0 I
+X /SHDN 4 -700 -200 200 R 50 50 1 0 I
+X VIN 5 -700 200 200 R 50 50 1 0 I
+ENDDRAW
+ENDDEF
+#
+# DSC-Supply-eagle-import_MBR0520LT
+#
+DEF DSC-Supply-eagle-import_MBR0520LT D 0 40 Y Y 1 L N
+F0 "D" 100 19 59 H V L BNN
+F1 "DSC-Supply-eagle-import_MBR0520LT" 100 -91 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 -100 0 13 0 1 0 "SpiceOrder 1" Normal 0 C C
+T 0 100 0 13 0 1 0 "SpiceOrder 2" Normal 0 C C
+P 2 1 0 0 -50 -50 50 0 N
+P 2 1 0 0 -50 50 -50 -50 N
+P 2 1 0 0 50 0 -50 50 N
+P 2 1 0 0 50 0 50 -50 N
+P 2 1 0 0 50 50 50 0 N
+X A A -100 0 100 R 0 0 1 0 P
+X C C 100 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# DSC-Supply-eagle-import_PINHD-1X2
+#
+DEF DSC-Supply-eagle-import_PINHD-1X2 JP 0 40 Y Y 1 L N
+F0 "JP" -250 225 59 H V L BNN
+F1 "DSC-Supply-eagle-import_PINHD-1X2" -250 -200 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -250 -100 50 -100 N
+P 2 1 0 0 -250 200 -250 -100 N
+P 2 1 0 0 50 -100 50 200 N
+P 2 1 0 0 50 200 -250 200 N
+X 1 1 -100 100 100 R 50 0 1 0 P I
+X 2 2 -100 0 100 R 50 0 1 0 P I
+ENDDRAW
+ENDDEF
+#
+# DSC-Supply-eagle-import_PINHD-1X5
+#
+DEF DSC-Supply-eagle-import_PINHD-1X5 JP 0 40 Y Y 1 L N
+F0 "JP" -250 325 59 H V L BNN
+F1 "DSC-Supply-eagle-import_PINHD-1X5" -250 -400 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -250 -300 50 -300 N
+P 2 1 0 0 -250 300 -250 -300 N
+P 2 1 0 0 50 -300 50 300 N
+P 2 1 0 0 50 300 -250 300 N
+X 1 1 -100 200 100 R 50 0 1 0 P I
+X 2 2 -100 100 100 R 50 0 1 0 P I
+X 3 3 -100 0 100 R 50 0 1 0 P I
+X 4 4 -100 -100 100 R 50 0 1 0 P I
+X 5 5 -100 -200 100 R 50 0 1 0 P I
+ENDDRAW
+ENDDEF
+#
+# DSC-Supply-eagle-import_R-EU_R0805
+#
+DEF DSC-Supply-eagle-import_R-EU_R0805 R 0 40 Y Y 1 L N
+F0 "R" -150 59 59 H V L BNN
+F1 "DSC-Supply-eagle-import_R-EU_R0805" -150 -130 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -100 -35 -100 35 N
+P 2 1 0 0 -100 -35 100 -35 N
+P 2 1 0 0 100 -35 100 35 N
+P 2 1 0 0 100 35 -100 35 N
+X 1 1 -200 0 100 R 0 0 1 0 P
+X 2 2 200 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# DSC-Supply-eagle-import_TPS72301
+#
+DEF DSC-Supply-eagle-import_TPS72301 IC 0 40 Y Y 1 L N
+F0 "IC" -500 500 42 H V L BNN
+F1 "DSC-Supply-eagle-import_TPS72301" 200 500 42 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -500 -400 -500 400 N
+P 2 1 0 0 -500 400 500 400 N
+P 2 1 0 0 500 -400 -500 -400 N
+P 2 1 0 0 500 400 500 -400 N
+X GND 1 0 -600 200 U 50 50 1 0 W
+X IN 2 -700 200 200 R 50 50 1 0 I
+X EN 3 -700 -200 200 R 50 50 1 0 I
+X NR 4 700 -200 200 L 50 50 1 0 I
+X OUT 5 700 200 200 L 50 50 1 0 B
+ENDDRAW
+ENDDEF
+#
+# DSC-Supply-eagle-import_TPS769XX
+#
+DEF DSC-Supply-eagle-import_TPS769XX IC 0 40 Y Y 1 L N
+F0 "IC" -500 500 42 H V L BNN
+F1 "DSC-Supply-eagle-import_TPS769XX" 200 500 42 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -500 -400 -500 400 N
+P 2 1 0 0 -500 400 500 400 N
+P 2 1 0 0 500 -400 -500 -400 N
+P 2 1 0 0 500 400 500 -400 N
+X IN 1 -700 200 200 R 50 50 1 0 I
+X GND 2 0 -600 200 U 50 50 1 0 W
+X /EN 3 -700 -200 200 R 50 50 1 0 I
+X NC/FB 4 700 -200 200 L 50 50 1 0 I
+X OUT 5 700 200 200 L 50 50 1 0 B
+ENDDRAW
+ENDDEF
+#
+#End Library

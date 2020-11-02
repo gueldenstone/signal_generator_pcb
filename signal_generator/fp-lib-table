@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name signal_generator)(type KiCad)(uri ${KIPRJMOD}/signal_generator.pretty)(options "")(descr ""))
+  (lib (name DSC-Supply)(type KiCad)(uri /home/lukas/01_Studium/02_DigiSys_CAE/Projektaufgabe/signal_generator_pcb/supply/DSC-Supply.pretty)(options "")(descr ""))
 )

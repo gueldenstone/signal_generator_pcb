@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name DSC-Supply)(type KiCad)(uri "$(KIPRJMOD)/DSC-Supply.pretty")(options "")(descr ""))
+)
