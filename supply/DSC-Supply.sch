@@ -14,6 +14,8 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
+	3700 4500 3700 4700
+Wire Wire Line
 	3700 5600 3700 4700
 Wire Wire Line
 	3700 4700 4100 4700
@@ -290,6 +292,17 @@ F 1 "LM2611" H 5200 6200 42  0000 L BNN
 F 2 "DSC-Supply:SOT23-DBV" H 5000 5700 50  0001 C CNN
 F 3 "" H 5000 5700 50  0001 C CNN
 	1    5000 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L DSC-Supply-eagle-import:+5V #V01
+U 1 1 D47A89D4
+P 3700 4400
+F 0 "#V01" H 3700 4400 50  0001 C CNN
+F 1 "+5V" H 3600 4500 59  0000 L BNN
+F 2 "" H 3700 4400 50  0001 C CNN
+F 3 "" H 3700 4400 50  0001 C CNN
+	1    3700 4400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -746,17 +759,4 @@ Wire Wire Line
 	7600 5800 7600 6500
 Wire Wire Line
 	12100 2600 13300 2600
-Wire Wire Line
-	3700 4500 3700 4700
-$Comp
-L DSC-Supply-eagle-import:+5V #V01
-U 1 1 D47A89D4
-P 3700 4400
-F 0 "#V01" H 3700 4400 50  0001 C CNN
-F 1 "+5V" H 3600 4500 59  0000 L BNN
-F 2 "" H 3700 4400 50  0001 C CNN
-F 3 "" H 3700 4400 50  0001 C CNN
-	1    3700 4400
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC

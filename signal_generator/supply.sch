@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Regulator_Linear:TPS76933 U201
+L signal_generator-rescue:TPS76933-Regulator_Linear U201
 U 1 1 5FA4338F
 P 2350 2200
 F 0 "U201" H 2350 2542 50  0000 C CNN
@@ -25,7 +25,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/tps769.pdf" H 2350 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP_Small C201
+L signal_generator-rescue:CP_Small-Device C201
 U 1 1 5FA4419C
 P 1450 2350
 F 0 "C201" H 1538 2396 50  0000 L CNN
@@ -36,7 +36,7 @@ F 3 "~" H 1450 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0201
+L signal_generator-rescue:+5V-power #PWR0201
 U 1 1 5FA447D2
 P 1450 1850
 F 0 "#PWR0201" H 1450 1700 50  0001 C CNN
@@ -68,7 +68,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 2100 2750 2100
 $Comp
-L Device:CP_Small C206
+L signal_generator-rescue:CP_Small-Device C206
 U 1 1 5FA464D0
 P 2900 2350
 F 0 "C206" H 2988 2396 50  0000 L CNN
@@ -90,7 +90,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 2650 2900 2450
 $Comp
-L Regulator_Linear:TPS76901 U203
+L signal_generator-rescue:TPS76901-Regulator_Linear U203
 U 1 1 5FA4854C
 P 4650 2200
 F 0 "U203" H 4650 2542 50  0000 C CNN
@@ -112,7 +112,7 @@ F 3 "" H 2950 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:L_Small L201
+L signal_generator-rescue:L_Small-Device L201
 U 1 1 5FA50E19
 P 2950 4050
 F 0 "L201" V 2769 4050 50  0000 C CNN
@@ -123,7 +123,7 @@ F 3 "~" H 2950 4050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:L_Small L202
+L signal_generator-rescue:L_Small-Device L202
 U 1 1 5FA5135D
 P 5050 4050
 F 0 "L202" V 4869 4050 50  0000 C CNN
@@ -134,7 +134,7 @@ F 3 "~" H 5050 4050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C209
+L signal_generator-rescue:C_Small-Device C209
 U 1 1 5FA519AF
 P 4100 4050
 F 0 "C209" V 3871 4050 50  0000 C CNN
@@ -145,7 +145,7 @@ F 3 "~" H 4100 4050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C210
+L signal_generator-rescue:C_Small-Device C210
 U 1 1 5FA51C96
 P 4350 4650
 F 0 "C210" H 4442 4696 50  0000 L CNN
@@ -156,7 +156,7 @@ F 3 "~" H 4350 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R201
+L signal_generator-rescue:R_Small-Device R201
 U 1 1 5FA524F7
 P 4000 4600
 F 0 "R201" H 4059 4646 50  0000 L CNN
@@ -167,7 +167,7 @@ F 3 "~" H 4000 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R202
+L signal_generator-rescue:R_Small-Device R202
 U 1 1 5FA558BB
 P 4000 5150
 F 0 "R202" H 4059 5196 50  0000 L CNN
@@ -178,7 +178,7 @@ F 3 "~" H 4000 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:MBR0520LT D201
+L signal_generator-rescue:MBR0520LT-Diode D201
 U 1 1 5FA56454
 P 4750 4450
 F 0 "D201" V 4796 4370 50  0000 R CNN
@@ -189,7 +189,7 @@ F 3 "http://www.onsemi.com/pub_link/Collateral/MBR0520LT1-D.PDF" H 4750 4450 50 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C_Small C202
+L signal_generator-rescue:C_Small-Device C202
 U 1 1 5FA5732A
 P 1800 4600
 F 0 "C202" H 1708 4554 50  0000 R CNN
@@ -200,7 +200,7 @@ F 3 "~" H 1800 4600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C211
+L signal_generator-rescue:C_Small-Device C211
 U 1 1 5FA57CA2
 P 5400 4550
 F 0 "C211" H 5308 4504 50  0000 R CNN
@@ -211,7 +211,7 @@ F 3 "~" H 5400 4550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:-5V #PWR0215
+L signal_generator-rescue:-5V-power #PWR0215
 U 1 1 5FA58523
 P 5400 3900
 F 0 "#PWR0215" H 5400 4000 50  0001 C CNN
@@ -222,7 +222,7 @@ F 3 "" H 5400 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0204
+L signal_generator-rescue:+5V-power #PWR0204
 U 1 1 5FA58918
 P 1800 3900
 F 0 "#PWR0204" H 1800 3750 50  0001 C CNN
@@ -244,7 +244,7 @@ Wire Wire Line
 	2350 4050 2850 4050
 Connection ~ 2350 4300
 Wire Wire Line
-	2350 4050 1800 4050
+	2350 4050 1950 4050
 Wire Wire Line
 	1800 4050 1800 4500
 Connection ~ 2350 4050
@@ -303,7 +303,7 @@ Connection ~ 4750 4050
 Wire Wire Line
 	5400 4450 5400 4050
 Wire Wire Line
-	5400 4050 5150 4050
+	5400 4050 5300 4050
 Wire Wire Line
 	5400 4650 5400 5400
 Wire Wire Line
@@ -327,7 +327,7 @@ F 3 "" H 7250 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R205
+L signal_generator-rescue:R_Small-Device R205
 U 1 1 5FA8BAA8
 P 8150 2250
 F 0 "R205" H 8209 2296 50  0000 L CNN
@@ -338,7 +338,7 @@ F 3 "~" H 8150 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R206
+L signal_generator-rescue:R_Small-Device R206
 U 1 1 5FA8C265
 P 8150 2600
 F 0 "R206" H 8209 2646 50  0000 L CNN
@@ -360,7 +360,7 @@ Wire Wire Line
 	8150 2500 8150 2400
 Connection ~ 8150 2400
 $Comp
-L Device:CP_Small C213
+L signal_generator-rescue:CP_Small-Device C213
 U 1 1 5FA933E9
 P 8500 2400
 F 0 "C213" H 8412 2354 50  0000 R CNN
@@ -383,7 +383,7 @@ Wire Wire Line
 	8150 2700 8150 2800
 Connection ~ 8150 2800
 $Comp
-L power:GNDA #PWR0225
+L signal_generator-rescue:GNDA-power #PWR0225
 U 1 1 5FA96F7E
 P 7250 2900
 F 0 "#PWR0225" H 7250 2650 50  0001 C CNN
@@ -407,7 +407,7 @@ Wire Wire Line
 Wire Wire Line
 	6650 2400 6800 2400
 $Comp
-L power:-5V #PWR0217
+L signal_generator-rescue:-5V-power #PWR0217
 U 1 1 5FA9BFAF
 P 6650 1950
 F 0 "#PWR0217" H 6650 2050 50  0001 C CNN
@@ -421,7 +421,7 @@ Wire Wire Line
 	6650 1950 6650 2100
 Connection ~ 6650 2100
 $Comp
-L power:VSSA #PWR0226
+L signal_generator-rescue:VSSA-power #PWR0226
 U 1 1 5FAA6E6F
 P 8500 1900
 F 0 "#PWR0226" H 8500 1750 50  0001 C CNN
@@ -435,7 +435,7 @@ Wire Wire Line
 	8500 1900 8500 2100
 Connection ~ 8500 2100
 $Comp
-L Device:R_Small R203
+L signal_generator-rescue:R_Small-Device R203
 U 1 1 5FAAB9EB
 P 5550 2150
 F 0 "R203" H 5609 2196 50  0000 L CNN
@@ -446,7 +446,7 @@ F 3 "~" H 5550 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R204
+L signal_generator-rescue:R_Small-Device R204
 U 1 1 5FAAB9F1
 P 5550 2500
 F 0 "R204" H 5609 2546 50  0000 L CNN
@@ -459,7 +459,7 @@ $EndComp
 Wire Wire Line
 	5550 2050 5550 2000
 $Comp
-L Device:CP_Small C212
+L signal_generator-rescue:CP_Small-Device C212
 U 1 1 5FAAB9FD
 P 5900 2300
 F 0 "C212" H 5988 2346 50  0000 L CNN
@@ -481,7 +481,7 @@ Wire Wire Line
 	5550 2600 5550 2700
 Connection ~ 5550 2700
 $Comp
-L power:GNDA #PWR0214
+L signal_generator-rescue:GNDA-power #PWR0214
 U 1 1 5FAABA0A
 P 4650 2800
 F 0 "#PWR0214" H 4650 2550 50  0001 C CNN
@@ -508,7 +508,7 @@ Wire Wire Line
 Wire Wire Line
 	4050 1850 4050 2100
 $Comp
-L power:+5V #PWR0213
+L signal_generator-rescue:+5V-power #PWR0213
 U 1 1 5FAC0ED1
 P 4050 1850
 F 0 "#PWR0213" H 4050 1700 50  0001 C CNN
@@ -519,7 +519,7 @@ F 3 "" H 4050 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VDDA #PWR0216
+L signal_generator-rescue:VDDA-power #PWR0216
 U 1 1 5FAC38E9
 P 5900 1800
 F 0 "#PWR0216" H 5900 1650 50  0001 C CNN
@@ -546,9 +546,11 @@ Connection ~ 5550 2300
 Wire Wire Line
 	5550 2300 5550 2400
 $Comp
-L Connector:Conn_01x02_Male J201
+L signal_generator-rescue:Conn_01x02_Male-Connector J201
 U 1 1 5FACBD7C
 P 7500 3800
+AR Path="/5FACBD7C" Ref="J201"  Part="1" 
+AR Path="/5FA42535/5FACBD7C" Ref="J201"  Part="1" 
 F 0 "J201" H 7472 3682 50  0000 R CNN
 F 1 "Power Input" H 7472 3773 50  0000 R CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 7500 3800 50  0001 C CNN
@@ -557,9 +559,11 @@ F 3 "~" H 7500 3800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x05_Male J202
+L signal_generator-rescue:Conn_01x05_Male-Connector J202
 U 1 1 5FACD401
 P 7550 4750
+AR Path="/5FACD401" Ref="J202"  Part="1" 
+AR Path="/5FA42535/5FACD401" Ref="J202"  Part="1" 
 F 0 "J202" H 7522 4774 50  0000 R CNN
 F 1 "Power Output" H 7522 4683 50  0000 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 7550 4750 50  0001 C CNN
@@ -572,7 +576,7 @@ Text Notes 5600 1550 0    50   ~ 0
 Text Notes 8200 1650 0    50   ~ 0
 -4V fixed, Analog
 $Comp
-L power:+5V #PWR0221
+L signal_generator-rescue:+5V-power #PWR0221
 U 1 1 5FAD32CA
 P 7050 3600
 F 0 "#PWR0221" H 7050 3450 50  0001 C CNN
@@ -583,7 +587,7 @@ F 3 "" H 7050 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0222
+L signal_generator-rescue:GND-power #PWR0222
 U 1 1 5FAD4450
 P 7050 3850
 F 0 "#PWR0222" H 7050 3600 50  0001 C CNN
@@ -602,7 +606,7 @@ Wire Wire Line
 Wire Wire Line
 	7050 3700 7050 3600
 $Comp
-L power:+3.3V #PWR0207
+L signal_generator-rescue:+3.3V-power #PWR0207
 U 1 1 5FA45FE4
 P 2900 1850
 F 0 "#PWR0207" H 2900 1700 50  0001 C CNN
@@ -613,7 +617,7 @@ F 3 "" H 2900 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0223
+L signal_generator-rescue:+3.3V-power #PWR0223
 U 1 1 5FADEC46
 P 7050 4500
 F 0 "#PWR0223" H 7050 4350 50  0001 C CNN
@@ -624,7 +628,7 @@ F 3 "" H 7050 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0224
+L signal_generator-rescue:GND-power #PWR0224
 U 1 1 5FADF2C9
 P 7050 5050
 F 0 "#PWR0224" H 7050 4800 50  0001 C CNN
@@ -639,7 +643,7 @@ Wire Wire Line
 Wire Wire Line
 	7050 4550 7050 4500
 $Comp
-L power:VDDA #PWR0218
+L signal_generator-rescue:VDDA-power #PWR0218
 U 1 1 5FAE4D97
 P 6700 4600
 F 0 "#PWR0218" H 6700 4450 50  0001 C CNN
@@ -650,7 +654,7 @@ F 3 "" H 6700 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR0220
+L signal_generator-rescue:GNDA-power #PWR0220
 U 1 1 5FAE54AA
 P 6900 5300
 F 0 "#PWR0220" H 6900 5050 50  0001 C CNN
@@ -669,7 +673,7 @@ Wire Wire Line
 Wire Wire Line
 	6900 4850 7350 4850
 $Comp
-L power:VSSA #PWR0219
+L signal_generator-rescue:VSSA-power #PWR0219
 U 1 1 5FAFDDED
 P 6700 5050
 F 0 "#PWR0219" H 6700 4900 50  0001 C CNN
@@ -694,7 +698,7 @@ Wire Wire Line
 Wire Wire Line
 	4100 2700 4650 2700
 $Comp
-L power:GND #PWR0206
+L signal_generator-rescue:GND-power #PWR0206
 U 1 1 5FA44CEB
 P 2350 2750
 F 0 "#PWR0206" H 2350 2500 50  0001 C CNN
@@ -705,7 +709,7 @@ F 3 "" H 2350 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0208
+L signal_generator-rescue:GND-power #PWR0208
 U 1 1 5FA6033D
 P 2950 5500
 F 0 "#PWR0208" H 2950 5250 50  0001 C CNN
@@ -716,27 +720,27 @@ F 3 "" H 2950 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L signal_generator-rescue:C_Small-Device C?
 U 1 1 5FBC15D0
 P 1850 6450
 AR Path="/5FBC15D0" Ref="C?"  Part="1" 
 AR Path="/5FA42535/5FBC15D0" Ref="C203"  Part="1" 
 F 0 "C203" H 1942 6496 50  0000 L CNN
 F 1 "100nF" H 1942 6405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1850 6450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1850 6450 50  0001 C CNN
 F 3 "~" H 1850 6450 50  0001 C CNN
 	1    1850 6450
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L signal_generator-rescue:C_Small-Device C?
 U 1 1 5FBC15D6
 P 1850 6850
 AR Path="/5FBC15D6" Ref="C?"  Part="1" 
 AR Path="/5FA42535/5FBC15D6" Ref="C204"  Part="1" 
 F 0 "C204" H 1942 6896 50  0000 L CNN
 F 1 "100nF" H 1942 6805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1850 6850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1850 6850 50  0001 C CNN
 F 3 "~" H 1850 6850 50  0001 C CNN
 	1    1850 6850
 	1    0    0    -1  
@@ -748,7 +752,7 @@ Wire Wire Line
 Wire Wire Line
 	1850 6750 1850 6650
 $Comp
-L power:GNDA #PWR?
+L signal_generator-rescue:GNDA-power #PWR?
 U 1 1 5FBC15DF
 P 2250 6650
 AR Path="/5FBC15DF" Ref="#PWR?"  Part="1" 
@@ -766,7 +770,7 @@ Connection ~ 1850 6650
 Wire Wire Line
 	1850 6650 1850 6550
 $Comp
-L power:VDDA #PWR?
+L signal_generator-rescue:VDDA-power #PWR?
 U 1 1 5FBC15E8
 P 1600 6250
 AR Path="/5FBC15E8" Ref="#PWR?"  Part="1" 
@@ -780,30 +784,17 @@ F 3 "" H 1600 6250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1600 6250 1600 6350
-$Comp
-L power:-5VA #PWR?
-U 1 1 5FBC15EF
-P 1600 7050
-AR Path="/5FBC15EF" Ref="#PWR?"  Part="1" 
-AR Path="/5FA42535/5FBC15EF" Ref="#PWR0203"  Part="1" 
-F 0 "#PWR0203" H 1600 7150 50  0001 C CNN
-F 1 "-5VA" H 1615 7223 50  0000 C CNN
-F 2 "" H 1600 7050 50  0001 C CNN
-F 3 "" H 1600 7050 50  0001 C CNN
-	1    1600 7050
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	1600 7050 1600 6950
 $Comp
-L Amplifier_Operational:TL074 U?
+L signal_generator-rescue:TL074-Amplifier_Operational U?
 U 5 1 5FBC15F6
 P 1700 6650
 AR Path="/5FBC15F6" Ref="U?"  Part="5" 
 AR Path="/5FA42535/5FBC15F6" Ref="U103"  Part="5" 
 F 0 "U103" H 1658 6696 50  0000 L CNN
 F 1 "TL074" H 1658 6605 50  0000 L CNN
-F 2 "Package_SO:SSOP-14_5.3x6.2mm_P0.65mm" H 1650 6750 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 1650 6750 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 1750 6850 50  0001 C CNN
 	5    1700 6650
 	1    0    0    -1  
@@ -811,20 +802,20 @@ $EndComp
 Connection ~ 1600 6950
 Connection ~ 1600 6350
 $Comp
-L Device:L_Small L?
+L signal_generator-rescue:L_Small-Device L?
 U 1 1 5FBE9FDC
 P 9100 4450
 AR Path="/5FBE9FDC" Ref="L?"  Part="1" 
 AR Path="/5FA42535/5FBE9FDC" Ref="L203"  Part="1" 
 F 0 "L203" V 8919 4450 50  0000 C CNN
 F 1 "5uH" V 9010 4450 50  0000 C CNN
-F 2 "Inductor_SMD:L_0805_2012Metric" H 9100 4450 50  0001 C CNN
+F 2 "Inductor_THT:L_Axial_L7.0mm_D3.3mm_P10.16mm_Horizontal_Fastron_MICC" H 9100 4450 50  0001 C CNN
 F 3 "~" H 9100 4450 50  0001 C CNN
 	1    9100 4450
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GNDA #PWR?
+L signal_generator-rescue:GNDA-power #PWR?
 U 1 1 5FBE9FE2
 P 9300 4550
 AR Path="/5FBE9FE2" Ref="#PWR?"  Part="1" 
@@ -837,7 +828,7 @@ F 3 "" H 9300 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDD #PWR?
+L signal_generator-rescue:GNDD-power #PWR?
 U 1 1 5FBE9FE8
 P 8900 4550
 AR Path="/5FBE9FE8" Ref="#PWR?"  Part="1" 
@@ -858,7 +849,7 @@ Wire Wire Line
 Wire Wire Line
 	9300 4450 9300 4550
 $Comp
-L power:+3.3V #PWR?
+L signal_generator-rescue:+3.3V-power #PWR?
 U 1 1 5FC11422
 P 3000 6350
 AR Path="/5FC11422" Ref="#PWR?"  Part="1" 
@@ -871,33 +862,33 @@ F 3 "" H 3000 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L signal_generator-rescue:C_Small-Device C?
 U 1 1 5FC11428
 P 2750 6550
 AR Path="/5FC11428" Ref="C?"  Part="1" 
 AR Path="/5FA42535/5FC11428" Ref="C205"  Part="1" 
 F 0 "C205" H 2842 6596 50  0000 L CNN
 F 1 "100nF" H 2842 6505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2750 6550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2750 6550 50  0001 C CNN
 F 3 "~" H 2750 6550 50  0001 C CNN
 	1    2750 6550
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L signal_generator-rescue:C_Small-Device C?
 U 1 1 5FC1142E
 P 3750 6600
 AR Path="/5FC1142E" Ref="C?"  Part="1" 
 AR Path="/5FA42535/5FC1142E" Ref="C208"  Part="1" 
 F 0 "C208" H 3842 6646 50  0000 L CNN
 F 1 "100nF" H 3842 6555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3750 6600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3750 6600 50  0001 C CNN
 F 3 "~" H 3750 6600 50  0001 C CNN
 	1    3750 6600
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VDDA #PWR?
+L signal_generator-rescue:VDDA-power #PWR?
 U 1 1 5FC11434
 P 3750 6400
 AR Path="/5FC11434" Ref="#PWR?"  Part="1" 
@@ -912,14 +903,14 @@ $EndComp
 Wire Wire Line
 	3750 6400 3750 6500
 $Comp
-L Device:C_Small C?
+L signal_generator-rescue:C_Small-Device C?
 U 1 1 5FC1143B
 P 3200 6550
 AR Path="/5FC1143B" Ref="C?"  Part="1" 
 AR Path="/5FA42535/5FC1143B" Ref="C207"  Part="1" 
 F 0 "C207" H 3292 6596 50  0000 L CNN
 F 1 "100nF" H 3292 6505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3200 6550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3200 6550 50  0001 C CNN
 F 3 "~" H 3200 6550 50  0001 C CNN
 	1    3200 6550
 	1    0    0    -1  
@@ -938,7 +929,7 @@ Wire Wire Line
 Wire Wire Line
 	3200 6750 3200 6650
 $Comp
-L power:GNDD #PWR?
+L signal_generator-rescue:GNDD-power #PWR?
 U 1 1 5FC11448
 P 3000 6850
 AR Path="/5FC11448" Ref="#PWR?"  Part="1" 
@@ -956,7 +947,7 @@ Connection ~ 3000 6750
 Wire Wire Line
 	3000 6750 3200 6750
 $Comp
-L power:GNDA #PWR?
+L signal_generator-rescue:GNDA-power #PWR?
 U 1 1 5FC11451
 P 3750 6850
 AR Path="/5FC11451" Ref="#PWR?"  Part="1" 
@@ -971,7 +962,7 @@ $EndComp
 Wire Wire Line
 	3750 6850 3750 6700
 $Comp
-L power:GNDD #PWR?
+L signal_generator-rescue:GNDD-power #PWR?
 U 1 1 5FC36E71
 P 4550 6900
 AR Path="/5FC36E71" Ref="#PWR?"  Part="1" 
@@ -984,7 +975,7 @@ F 3 "" H 4550 6900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0119
+L signal_generator-rescue:GND-power #PWR0119
 U 1 1 5FC37359
 P 5000 6900
 F 0 "#PWR0119" H 5000 6650 50  0001 C CNN
@@ -1000,4 +991,43 @@ Wire Wire Line
 	4550 6750 4550 6900
 Wire Wire Line
 	4550 6750 5000 6750
+$Comp
+L signal_generator-rescue:PWR_FLAG-power #FLG0101
+U 1 1 5FAE8974
+P 1950 4050
+F 0 "#FLG0101" H 1950 4125 50  0001 C CNN
+F 1 "PWR_FLAG" H 1950 4223 50  0000 C CNN
+F 2 "" H 1950 4050 50  0001 C CNN
+F 3 "~" H 1950 4050 50  0001 C CNN
+	1    1950 4050
+	1    0    0    -1  
+$EndComp
+Connection ~ 1950 4050
+Wire Wire Line
+	1950 4050 1800 4050
+$Comp
+L signal_generator-rescue:PWR_FLAG-power #FLG0102
+U 1 1 5FAF71E0
+P 5300 4050
+F 0 "#FLG0102" H 5300 4125 50  0001 C CNN
+F 1 "PWR_FLAG" H 5300 4223 50  0000 C CNN
+F 2 "" H 5300 4050 50  0001 C CNN
+F 3 "~" H 5300 4050 50  0001 C CNN
+	1    5300 4050
+	1    0    0    -1  
+$EndComp
+Connection ~ 5300 4050
+Wire Wire Line
+	5300 4050 5150 4050
+$Comp
+L signal_generator-rescue:VSSA-power #PWR0102
+U 1 1 5FA9B02B
+P 1600 7050
+F 0 "#PWR0102" H 1600 6900 50  0001 C CNN
+F 1 "VSSA" H 1615 7223 50  0000 C CNN
+F 2 "" H 1600 7050 50  0001 C CNN
+F 3 "" H 1600 7050 50  0001 C CNN
+	1    1600 7050
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
