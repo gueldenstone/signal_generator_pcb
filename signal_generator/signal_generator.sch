@@ -846,23 +846,23 @@ $EndComp
 $Comp
 L signal_generator-rescue:TL074-Amplifier_Operational U103
 U 3 1 5F9E0201
-P 9150 5050
-F 0 "U103" H 9150 5417 50  0000 C CNN
-F 1 "TL074" H 9150 5326 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 9100 5150 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 9200 5250 50  0001 C CNN
-	3    9150 5050
+P 9350 4850
+F 0 "U103" H 9350 5217 50  0000 C CNN
+F 1 "TL074" H 9350 5126 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 9300 4950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 9400 5050 50  0001 C CNN
+	3    9350 4850
 	1    0    0    -1  
 $EndComp
 $Comp
 L signal_generator-rescue:TL074-Amplifier_Operational U103
 U 4 1 5F9E33AC
-P 9150 6000
-F 0 "U103" H 9150 6367 50  0000 C CNN
-F 1 "TL074" H 9150 6276 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 9100 6100 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 9200 6200 50  0001 C CNN
-	4    9150 6000
+P 9350 5800
+F 0 "U103" H 9350 6167 50  0000 C CNN
+F 1 "TL074" H 9350 6076 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 9300 5900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 9400 6000 50  0001 C CNN
+	4    9350 5800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -933,7 +933,7 @@ Wire Wire Line
 Connection ~ 5850 2650
 Wire Wire Line
 	5850 2650 5850 2700
-Text Label 8200 4700 2    50   ~ 0
+Text Label 8400 4500 2    50   ~ 0
 DAC_OUT1
 Wire Wire Line
 	4550 4500 4550 4550
@@ -942,12 +942,12 @@ Wire Wire Line
 $Comp
 L signal_generator-rescue:R_POT-Device RV103
 U 1 1 5FA7BAE5
-P 8450 4950
-F 0 "RV103" H 8380 4996 50  0000 R CNN
-F 1 "10kA" H 8380 4905 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles" H 8450 4950 50  0001 C CNN
-F 3 "~" H 8450 4950 50  0001 C CNN
-	1    8450 4950
+P 8650 4750
+F 0 "RV103" H 8580 4796 50  0000 R CNN
+F 1 "10kA" H 8580 4705 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles" H 8650 4750 50  0001 C CNN
+F 3 "~" H 8650 4750 50  0001 C CNN
+	1    8650 4750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -962,157 +962,145 @@ F 3 "" H 6950 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8600 4950 8850 4950
+	8800 4750 9050 4750
 Wire Wire Line
-	8450 4800 8450 4700
+	8650 4600 8650 4500
 Wire Wire Line
-	8450 4700 8200 4700
+	8650 4500 8400 4500
 $Comp
 L signal_generator-rescue:GNDA-power #PWR0116
 U 1 1 5FBC8950
-P 8450 5200
-F 0 "#PWR0116" H 8450 4950 50  0001 C CNN
-F 1 "GNDA" H 8455 5027 50  0000 C CNN
-F 2 "" H 8450 5200 50  0001 C CNN
-F 3 "" H 8450 5200 50  0001 C CNN
-	1    8450 5200
+P 8650 5000
+F 0 "#PWR0116" H 8650 4750 50  0001 C CNN
+F 1 "GNDA" H 8655 4827 50  0000 C CNN
+F 2 "" H 8650 5000 50  0001 C CNN
+F 3 "" H 8650 5000 50  0001 C CNN
+	1    8650 5000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8450 5200 8450 5100
+	8650 5000 8650 4900
 $Comp
 L signal_generator-rescue:R_Small-Device R113
 U 1 1 5FBD6E96
-P 8750 5300
-F 0 "R113" H 8809 5346 50  0000 L CNN
-F 1 "R_Small" H 8809 5255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 8750 5300 50  0001 C CNN
-F 3 "~" H 8750 5300 50  0001 C CNN
-	1    8750 5300
+P 8950 5350
+F 0 "R113" H 9009 5396 50  0000 L CNN
+F 1 "R_Small" H 9009 5305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 8950 5350 50  0001 C CNN
+F 3 "~" H 8950 5350 50  0001 C CNN
+	1    8950 5350
 	1    0    0    -1  
 $EndComp
 $Comp
 L signal_generator-rescue:R_Small-Device R117
 U 1 1 5FBD7707
-P 9350 5450
-F 0 "R117" V 9154 5450 50  0000 C CNN
-F 1 "R_Small" V 9245 5450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 9350 5450 50  0001 C CNN
-F 3 "~" H 9350 5450 50  0001 C CNN
-	1    9350 5450
+P 9550 5250
+F 0 "R117" V 9354 5250 50  0000 C CNN
+F 1 "R_Small" V 9445 5250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 9550 5250 50  0001 C CNN
+F 3 "~" H 9550 5250 50  0001 C CNN
+	1    9550 5250
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9250 5450 8750 5450
+	8950 4950 9050 4950
 Wire Wire Line
-	8750 5450 8750 5400
+	9650 5250 9750 5250
 Wire Wire Line
-	8750 5200 8750 5150
+	9750 5250 9750 4850
 Wire Wire Line
-	8750 5150 8850 5150
-Wire Wire Line
-	9450 5450 9550 5450
-Wire Wire Line
-	9550 5450 9550 5050
-Wire Wire Line
-	9550 5050 9450 5050
-Connection ~ 9550 5050
+	9750 4850 9650 4850
+Connection ~ 9750 4850
 $Comp
 L signal_generator-rescue:R_POT-Device RV104
 U 1 1 5FC29F19
-P 8450 5900
-F 0 "RV104" H 8380 5946 50  0000 R CNN
-F 1 "10kA" H 8380 5855 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles" H 8450 5900 50  0001 C CNN
-F 3 "~" H 8450 5900 50  0001 C CNN
-	1    8450 5900
+P 8650 5700
+F 0 "RV104" H 8580 5746 50  0000 R CNN
+F 1 "10kA" H 8580 5655 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles" H 8650 5700 50  0001 C CNN
+F 3 "~" H 8650 5700 50  0001 C CNN
+	1    8650 5700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8600 5900 8850 5900
+	8800 5700 9050 5700
 Wire Wire Line
-	8450 5750 8450 5650
+	8650 5550 8650 5450
 Wire Wire Line
-	8450 5650 8200 5650
+	8650 5450 8400 5450
 $Comp
 L signal_generator-rescue:GNDA-power #PWR0117
 U 1 1 5FC29F22
-P 8450 6150
-F 0 "#PWR0117" H 8450 5900 50  0001 C CNN
-F 1 "GNDA" H 8455 5977 50  0000 C CNN
-F 2 "" H 8450 6150 50  0001 C CNN
-F 3 "" H 8450 6150 50  0001 C CNN
-	1    8450 6150
+P 8650 5950
+F 0 "#PWR0117" H 8650 5700 50  0001 C CNN
+F 1 "GNDA" H 8655 5777 50  0000 C CNN
+F 2 "" H 8650 5950 50  0001 C CNN
+F 3 "" H 8650 5950 50  0001 C CNN
+	1    8650 5950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8450 6150 8450 6050
+	8650 5950 8650 5850
 $Comp
 L signal_generator-rescue:R_Small-Device R114
 U 1 1 5FC29F29
-P 8750 6250
-F 0 "R114" H 8809 6296 50  0000 L CNN
-F 1 "R_Small" H 8809 6205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 8750 6250 50  0001 C CNN
-F 3 "~" H 8750 6250 50  0001 C CNN
-	1    8750 6250
+P 8950 6300
+F 0 "R114" H 9009 6346 50  0000 L CNN
+F 1 "R_Small" H 9009 6255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 8950 6300 50  0001 C CNN
+F 3 "~" H 8950 6300 50  0001 C CNN
+	1    8950 6300
 	1    0    0    -1  
 $EndComp
 $Comp
 L signal_generator-rescue:R_Small-Device R118
 U 1 1 5FC29F2F
-P 9350 6400
-F 0 "R118" V 9154 6400 50  0000 C CNN
-F 1 "R_Small" V 9245 6400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 9350 6400 50  0001 C CNN
-F 3 "~" H 9350 6400 50  0001 C CNN
-	1    9350 6400
+P 9550 6200
+F 0 "R118" V 9354 6200 50  0000 C CNN
+F 1 "R_Small" V 9445 6200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 9550 6200 50  0001 C CNN
+F 3 "~" H 9550 6200 50  0001 C CNN
+	1    9550 6200
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9250 6400 8750 6400
+	8950 5900 9050 5900
 Wire Wire Line
-	8750 6400 8750 6350
+	9650 6200 9750 6200
 Wire Wire Line
-	8750 6150 8750 6100
+	9750 6200 9750 5800
 Wire Wire Line
-	8750 6100 8850 6100
-Wire Wire Line
-	9450 6400 9550 6400
-Wire Wire Line
-	9550 6400 9550 6000
-Wire Wire Line
-	9550 6000 9450 6000
-Connection ~ 9550 6000
-Text Label 8200 5650 2    50   ~ 0
+	9750 5800 9650 5800
+Connection ~ 9750 5800
+Text Label 8400 5450 2    50   ~ 0
 DAC_OUT2
-Text Label 9700 5050 1    50   ~ 0
+Text Label 9900 4850 1    50   ~ 0
 DAC_OUT1_BUF
-Text Label 9700 6000 1    50   ~ 0
+Text Label 9900 5800 1    50   ~ 0
 DAC_OUT2_BUF
 $Comp
 L signal_generator-rescue:Conn_01x02_Male-Connector J101
 U 1 1 5FD80DC5
-P 10300 5500
-F 0 "J101" H 10272 5474 50  0000 R CNN
-F 1 "DAC_OUT_BUF" H 10272 5383 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 10300 5500 50  0001 C CNN
-F 3 "~" H 10300 5500 50  0001 C CNN
-	1    10300 5500
+P 10500 5300
+F 0 "J101" H 10472 5274 50  0000 R CNN
+F 1 "DAC_OUT_BUF" H 10472 5183 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 10500 5300 50  0001 C CNN
+F 3 "~" H 10500 5300 50  0001 C CNN
+	1    10500 5300
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	10000 5050 10000 5500
+	10200 4850 10200 5300
 Wire Wire Line
-	9550 5050 10000 5050
+	9750 4850 10200 4850
 Wire Wire Line
-	10000 5600 10000 6000
+	10200 5400 10200 5800
 Wire Wire Line
-	9550 6000 10000 6000
+	9750 5800 10200 5800
 Wire Wire Line
-	10000 5500 10100 5500
+	10200 5300 10300 5300
 Wire Wire Line
-	10000 5600 10100 5600
+	10200 5400 10300 5400
 $Sheet
 S 1100 950  1100 1750
 U 5FA42535
@@ -1175,4 +1163,40 @@ Text Notes 10550 2750 0    50   ~ 0
 +/- 1V 
 Wire Wire Line
 	9950 2950 9950 3600
+Wire Wire Line
+	9450 6200 8950 6200
+Wire Wire Line
+	8950 5900 8950 6200
+Wire Wire Line
+	8950 5250 9450 5250
+Wire Wire Line
+	8950 4950 8950 5250
+$Comp
+L signal_generator-rescue:GNDA-power #PWR?
+U 1 1 5FACA75C
+P 8950 5500
+F 0 "#PWR?" H 8950 5250 50  0001 C CNN
+F 1 "GNDA" H 8955 5327 50  0000 C CNN
+F 2 "" H 8950 5500 50  0001 C CNN
+F 3 "" H 8950 5500 50  0001 C CNN
+	1    8950 5500
+	1    0    0    -1  
+$EndComp
+Connection ~ 8950 6200
+$Comp
+L signal_generator-rescue:GNDA-power #PWR?
+U 1 1 5FB00D9A
+P 8950 6450
+F 0 "#PWR?" H 8950 6200 50  0001 C CNN
+F 1 "GNDA" H 8955 6277 50  0000 C CNN
+F 2 "" H 8950 6450 50  0001 C CNN
+F 3 "" H 8950 6450 50  0001 C CNN
+	1    8950 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 6450 8950 6400
+Connection ~ 8950 5250
+Wire Wire Line
+	8950 5500 8950 5450
 $EndSCHEMATC

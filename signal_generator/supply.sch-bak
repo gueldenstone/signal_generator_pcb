@@ -809,7 +809,7 @@ AR Path="/5FBE9FDC" Ref="L?"  Part="1"
 AR Path="/5FA42535/5FBE9FDC" Ref="L203"  Part="1" 
 F 0 "L203" V 8919 4450 50  0000 C CNN
 F 1 "5uH" V 9010 4450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 9100 4450 50  0001 C CNN
+F 2 "Inductor_THT:L_Axial_L7.0mm_D3.3mm_P10.16mm_Horizontal_Fastron_MICC" H 9100 4450 50  0001 C CNN
 F 3 "~" H 9100 4450 50  0001 C CNN
 	1    9100 4450
 	0    1    1    0   
