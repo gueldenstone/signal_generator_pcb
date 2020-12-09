@@ -1,0 +1,1247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/lukas/01_Studium/02_DigiSys_CAE/Projektaufgabe/signal_generator_pcb/signal_generator/signal_generator.sch</source>
+    <date>Do 12 Nov 2020 14:44:25 CET</date>
+    <tool>Eeschema 5.1.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>signal_generator.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/supply/" tstamps="/5FA42535/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>supply.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U101">
+      <value>Digilent_CMOD-S7_25</value>
+      <footprint>signal_generator:CMODS7-25</footprint>
+      <libsource lib="cmods7-25" part="Digilent_CMOD-S7_25" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8DF98D</tstamp>
+    </comp>
+    <comp ref="U102">
+      <value>ADC9765</value>
+      <footprint>Package_QFP:LQFP-48_7x7mm_P0.5mm</footprint>
+      <libsource lib="cmods7-25" part="ADC9765" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8CA109</tstamp>
+    </comp>
+    <comp ref="R103">
+      <value>2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="signal_generator-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F99549D</tstamp>
+    </comp>
+    <comp ref="C103">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="signal_generator-rescue" part="CP1-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F99FD9F</tstamp>
+    </comp>
+    <comp ref="R104">
+      <value>2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="signal_generator-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9E7E3B</tstamp>
+    </comp>
+    <comp ref="R109">
+      <value>225R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="signal_generator-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA4FB98</tstamp>
+    </comp>
+    <comp ref="R110">
+      <value>225R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="signal_generator-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA50640</tstamp>
+    </comp>
+    <comp ref="R105">
+      <value>25R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="signal_generator-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA55E61</tstamp>
+    </comp>
+    <comp ref="R107">
+      <value>25R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="signal_generator-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA56AE3</tstamp>
+    </comp>
+    <comp ref="R115">
+      <value>500R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="signal_generator-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA8F6E3</tstamp>
+    </comp>
+    <comp ref="C104">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="signal_generator-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FAAA691</tstamp>
+    </comp>
+    <comp ref="R111">
+      <value>225R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="signal_generator-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FAEA284</tstamp>
+    </comp>
+    <comp ref="R112">
+      <value>225R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="signal_generator-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FAEA28A</tstamp>
+    </comp>
+    <comp ref="R106">
+      <value>25R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="signal_generator-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FAEA290</tstamp>
+    </comp>
+    <comp ref="R108">
+      <value>25R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="signal_generator-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FAEA296</tstamp>
+    </comp>
+    <comp ref="R116">
+      <value>500R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="signal_generator-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FAEA2A2</tstamp>
+    </comp>
+    <comp ref="C105">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="signal_generator-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FAEA2B5</tstamp>
+    </comp>
+    <comp ref="J102">
+      <value>DAC_OUT</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="signal_generator-rescue" part="Conn_01x02_Male-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB4D81C</tstamp>
+    </comp>
+    <comp ref="R102">
+      <value>256</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="signal_generator-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9CFF9C</tstamp>
+    </comp>
+    <comp ref="C102">
+      <value>22nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="signal_generator-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9CFFA2</tstamp>
+    </comp>
+    <comp ref="R101">
+      <value>256</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="signal_generator-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9EF78E</tstamp>
+    </comp>
+    <comp ref="C101">
+      <value>22nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="signal_generator-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9EF794</tstamp>
+    </comp>
+    <comp ref="U103">
+      <value>TL074</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tl071.pdf</datasheet>
+      <libsource lib="signal_generator-rescue" part="TL074-Amplifier_Operational" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9CB27F</tstamp>
+    </comp>
+    <comp ref="RV101">
+      <value>10kB</value>
+      <footprint>Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="signal_generator-rescue" part="R_POT-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9E7578</tstamp>
+    </comp>
+    <comp ref="RV102">
+      <value>10kB</value>
+      <footprint>Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="signal_generator-rescue" part="R_POT-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB1F7A5</tstamp>
+    </comp>
+    <comp ref="RV103">
+      <value>10kA</value>
+      <footprint>Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="signal_generator-rescue" part="R_POT-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA7BAE5</tstamp>
+    </comp>
+    <comp ref="R113">
+      <value>R_Small</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="signal_generator-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FBD6E96</tstamp>
+    </comp>
+    <comp ref="R117">
+      <value>R_Small</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="signal_generator-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FBD7707</tstamp>
+    </comp>
+    <comp ref="RV104">
+      <value>10kA</value>
+      <footprint>Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="signal_generator-rescue" part="R_POT-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC29F19</tstamp>
+    </comp>
+    <comp ref="R114">
+      <value>R_Small</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="signal_generator-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC29F29</tstamp>
+    </comp>
+    <comp ref="R118">
+      <value>R_Small</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="signal_generator-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC29F2F</tstamp>
+    </comp>
+    <comp ref="J101">
+      <value>DAC_OUT_BUF</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="signal_generator-rescue" part="Conn_01x02_Male-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD80DC5</tstamp>
+    </comp>
+    <comp ref="U201">
+      <value>TPS76933</value>
+      <footprint>DSC-Supply:SOT23-DBV</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tps769.pdf</datasheet>
+      <libsource lib="signal_generator-rescue" part="TPS76933-Regulator_Linear" description=""/>
+      <sheetpath names="/supply/" tstamps="/5FA42535/"/>
+      <tstamp>5FA4338F</tstamp>
+    </comp>
+    <comp ref="C201">
+      <value>10u</value>
+      <footprint>DSC-Supply:153CLV-0405</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="signal_generator-rescue" part="CP_Small-Device" description=""/>
+      <sheetpath names="/supply/" tstamps="/5FA42535/"/>
+      <tstamp>5FA4419C</tstamp>
+    </comp>
+    <comp ref="C206">
+      <value>10u</value>
+      <footprint>DSC-Supply:153CLV-0405</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="signal_generator-rescue" part="CP_Small-Device" description=""/>
+      <sheetpath names="/supply/" tstamps="/5FA42535/"/>
+      <tstamp>5FA464D0</tstamp>
+    </comp>
+    <comp ref="U203">
+      <value>TPS76901</value>
+      <footprint>DSC-Supply:SOT23-DBV</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tps769.pdf</datasheet>
+      <libsource lib="signal_generator-rescue" part="TPS76901-Regulator_Linear" description=""/>
+      <sheetpath names="/supply/" tstamps="/5FA42535/"/>
+      <tstamp>5FA4854C</tstamp>
+    </comp>
+    <comp ref="U202">
+      <value>LM2611</value>
+      <footprint>DSC-Supply:SOT23-DBV</footprint>
+      <libsource lib="lm2611" part="LM2611" description=""/>
+      <sheetpath names="/supply/" tstamps="/5FA42535/"/>
+      <tstamp>5FA4ED0A</tstamp>
+    </comp>
+    <comp ref="L201">
+      <value>22u</value>
+      <footprint>DSC-Supply:L0315</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="signal_generator-rescue" part="L_Small-Device" description=""/>
+      <sheetpath names="/supply/" tstamps="/5FA42535/"/>
+      <tstamp>5FA50E19</tstamp>
+    </comp>
+    <comp ref="L202">
+      <value>22u</value>
+      <footprint>DSC-Supply:L0315</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="signal_generator-rescue" part="L_Small-Device" description=""/>
+      <sheetpath names="/supply/" tstamps="/5FA42535/"/>
+      <tstamp>5FA5135D</tstamp>
+    </comp>
+    <comp ref="C209">
+      <value>2u2</value>
+      <footprint>DSC-Supply:C0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="signal_generator-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/supply/" tstamps="/5FA42535/"/>
+      <tstamp>5FA519AF</tstamp>
+    </comp>
+    <comp ref="C210">
+      <value>1n</value>
+      <footprint>DSC-Supply:C0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="signal_generator-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/supply/" tstamps="/5FA42535/"/>
+      <tstamp>5FA51C96</tstamp>
+    </comp>
+    <comp ref="R201">
+      <value>29k4</value>
+      <footprint>DSC-Supply:C0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="signal_generator-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/supply/" tstamps="/5FA42535/"/>
+      <tstamp>5FA524F7</tstamp>
+    </comp>
+    <comp ref="R202">
+      <value>10k</value>
+      <footprint>DSC-Supply:C0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="signal_generator-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/supply/" tstamps="/5FA42535/"/>
+      <tstamp>5FA558BB</tstamp>
+    </comp>
+    <comp ref="D201">
+      <value>MBR0520LT</value>
+      <footprint>DSC-Supply:SOD123</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MBR0520LT1-D.PDF</datasheet>
+      <libsource lib="signal_generator-rescue" part="MBR0520LT-Diode" description=""/>
+      <sheetpath names="/supply/" tstamps="/5FA42535/"/>
+      <tstamp>5FA56454</tstamp>
+    </comp>
+    <comp ref="C202">
+      <value>22u</value>
+      <footprint>DSC-Supply:C0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="signal_generator-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/supply/" tstamps="/5FA42535/"/>
+      <tstamp>5FA5732A</tstamp>
+    </comp>
+    <comp ref="C211">
+      <value>22u</value>
+      <footprint>DSC-Supply:C0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="signal_generator-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/supply/" tstamps="/5FA42535/"/>
+      <tstamp>5FA57CA2</tstamp>
+    </comp>
+    <comp ref="U204">
+      <value>TPS72301</value>
+      <footprint>DSC-Supply:SOT23-DBV</footprint>
+      <libsource lib="tps72301" part="TPS72301" description=""/>
+      <sheetpath names="/supply/" tstamps="/5FA42535/"/>
+      <tstamp>5FA8AAB9</tstamp>
+    </comp>
+    <comp ref="R205">
+      <value>30k</value>
+      <footprint>DSC-Supply:C0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="signal_generator-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/supply/" tstamps="/5FA42535/"/>
+      <tstamp>5FA8BAA8</tstamp>
+    </comp>
+    <comp ref="R206">
+      <value>30k</value>
+      <footprint>DSC-Supply:C0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="signal_generator-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/supply/" tstamps="/5FA42535/"/>
+      <tstamp>5FA8C265</tstamp>
+    </comp>
+    <comp ref="C213">
+      <value>10u</value>
+      <footprint>DSC-Supply:153CLV-0405</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="signal_generator-rescue" part="CP_Small-Device" description=""/>
+      <sheetpath names="/supply/" tstamps="/5FA42535/"/>
+      <tstamp>5FA933E9</tstamp>
+    </comp>
+    <comp ref="R203">
+      <value>30k</value>
+      <footprint>DSC-Supply:C0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="signal_generator-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/supply/" tstamps="/5FA42535/"/>
+      <tstamp>5FAAB9EB</tstamp>
+    </comp>
+    <comp ref="R204">
+      <value>30k</value>
+      <footprint>DSC-Supply:C0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="signal_generator-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/supply/" tstamps="/5FA42535/"/>
+      <tstamp>5FAAB9F1</tstamp>
+    </comp>
+    <comp ref="C212">
+      <value>10u</value>
+      <footprint>DSC-Supply:153CLV-0405</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="signal_generator-rescue" part="CP_Small-Device" description=""/>
+      <sheetpath names="/supply/" tstamps="/5FA42535/"/>
+      <tstamp>5FAAB9FD</tstamp>
+    </comp>
+    <comp ref="J201">
+      <value>Power Input</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="signal_generator-rescue" part="Conn_01x02_Male-Connector" description=""/>
+      <sheetpath names="/supply/" tstamps="/5FA42535/"/>
+      <tstamp>5FACBD7C</tstamp>
+    </comp>
+    <comp ref="J202">
+      <value>Power Output</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="signal_generator-rescue" part="Conn_01x05_Male-Connector" description=""/>
+      <sheetpath names="/supply/" tstamps="/5FA42535/"/>
+      <tstamp>5FACD401</tstamp>
+    </comp>
+    <comp ref="C203">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="signal_generator-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/supply/" tstamps="/5FA42535/"/>
+      <tstamp>5FBC15D0</tstamp>
+    </comp>
+    <comp ref="C204">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="signal_generator-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/supply/" tstamps="/5FA42535/"/>
+      <tstamp>5FBC15D6</tstamp>
+    </comp>
+    <comp ref="L203">
+      <value>5uH</value>
+      <footprint>Inductor_THT:L_Axial_L7.0mm_D3.3mm_P10.16mm_Horizontal_Fastron_MICC</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="signal_generator-rescue" part="L_Small-Device" description=""/>
+      <sheetpath names="/supply/" tstamps="/5FA42535/"/>
+      <tstamp>5FBE9FDC</tstamp>
+    </comp>
+    <comp ref="C205">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="signal_generator-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/supply/" tstamps="/5FA42535/"/>
+      <tstamp>5FC11428</tstamp>
+    </comp>
+    <comp ref="C208">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="signal_generator-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/supply/" tstamps="/5FA42535/"/>
+      <tstamp>5FC1142E</tstamp>
+    </comp>
+    <comp ref="C207">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="signal_generator-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/supply/" tstamps="/5FA42535/"/>
+      <tstamp>5FC1143B</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="cmods7-25" part="ADC9765">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADC9765</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DB11P1" type="input"/>
+        <pin num="2" name="DB10P1" type="input"/>
+        <pin num="3" name="DB9P1" type="input"/>
+        <pin num="4" name="DB8P1" type="input"/>
+        <pin num="5" name="DB7P1" type="input"/>
+        <pin num="6" name="DB6P1" type="input"/>
+        <pin num="7" name="DB5P1" type="input"/>
+        <pin num="8" name="DB4P1" type="input"/>
+        <pin num="9" name="DB3P1" type="input"/>
+        <pin num="10" name="DB2P1" type="input"/>
+        <pin num="11" name="DB1P1" type="input"/>
+        <pin num="12" name="DB0P1" type="input"/>
+        <pin num="13" name="NC" type="NotConnected"/>
+        <pin num="14" name="NC" type="NotConnected"/>
+        <pin num="15" name="DCOM1" type="power_in"/>
+        <pin num="16" name="DVDD1" type="power_in"/>
+        <pin num="17" name="WRT1/IQWRT" type="input"/>
+        <pin num="18" name="CLK1/QCLK" type="input"/>
+        <pin num="19" name="CLK2/IQRESET" type="input"/>
+        <pin num="20" name="WRT2/IQSELECT" type="input"/>
+        <pin num="21" name="DCOM2" type="power_in"/>
+        <pin num="22" name="DVDD2" type="power_in"/>
+        <pin num="23" name="DB11P2" type="input"/>
+        <pin num="24" name="DB10P2" type="input"/>
+        <pin num="25" name="DB9P2" type="input"/>
+        <pin num="26" name="DB8P2" type="input"/>
+        <pin num="27" name="DB7P2" type="input"/>
+        <pin num="28" name="DB6P2" type="input"/>
+        <pin num="29" name="DB5P2" type="input"/>
+        <pin num="30" name="DB4P2" type="input"/>
+        <pin num="31" name="DB3P2" type="input"/>
+        <pin num="32" name="DB2P2" type="input"/>
+        <pin num="33" name="DB1P2" type="input"/>
+        <pin num="34" name="DB0P2" type="input"/>
+        <pin num="35" name="NC" type="NotConnected"/>
+        <pin num="36" name="NC" type="NotConnected"/>
+        <pin num="37" name="SLEEP" type="input"/>
+        <pin num="38" name="ACOM" type="power_in"/>
+        <pin num="39" name="IOUTA2" type="output"/>
+        <pin num="40" name="IOUTB2" type="output"/>
+        <pin num="41" name="FSADJ2" type="input"/>
+        <pin num="42" name="GAINCTRL" type="input"/>
+        <pin num="43" name="REFIO" type="input"/>
+        <pin num="44" name="FSADJ1" type="input"/>
+        <pin num="45" name="IOUTB1" type="output"/>
+        <pin num="46" name="IOUTA1" type="output"/>
+        <pin num="47" name="AVDD" type="power_in"/>
+        <pin num="48" name="MODE" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="cmods7-25" part="Digilent_CMOD-S7_25">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Digilent_CMOD-S7_25</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PIO1" type="BiDi"/>
+        <pin num="2" name="PIO2" type="BiDi"/>
+        <pin num="3" name="PIO3" type="BiDi"/>
+        <pin num="4" name="PIO4" type="BiDi"/>
+        <pin num="5" name="PIO5" type="BiDi"/>
+        <pin num="6" name="PIO6" type="BiDi"/>
+        <pin num="7" name="PIO7" type="BiDi"/>
+        <pin num="8" name="PIO8" type="BiDi"/>
+        <pin num="9" name="PIO9" type="BiDi"/>
+        <pin num="16" name="PIO16" type="BiDi"/>
+        <pin num="17" name="PIO17" type="BiDi"/>
+        <pin num="18" name="PIO18" type="BiDi"/>
+        <pin num="19" name="PIO19" type="BiDi"/>
+        <pin num="20" name="PIO20" type="BiDi"/>
+        <pin num="21" name="PIO21" type="BiDi"/>
+        <pin num="22" name="PIO22" type="BiDi"/>
+        <pin num="23" name="PIO23" type="BiDi"/>
+        <pin num="24" name="VU" type="power_in"/>
+        <pin num="25" name="GND" type="power_in"/>
+        <pin num="26" name="PIO26" type="BiDi"/>
+        <pin num="27" name="PIO27" type="BiDi"/>
+        <pin num="28" name="PIO28" type="BiDi"/>
+        <pin num="29" name="PIO29" type="BiDi"/>
+        <pin num="30" name="PIO30" type="BiDi"/>
+        <pin num="31" name="PIO31" type="BiDi"/>
+        <pin num="32" name="AIN32" type="input"/>
+        <pin num="33" name="AIN33" type="input"/>
+        <pin num="40" name="PIO40" type="BiDi"/>
+        <pin num="41" name="PIO41" type="BiDi"/>
+        <pin num="42" name="PIO42" type="BiDi"/>
+        <pin num="43" name="PIO43" type="BiDi"/>
+        <pin num="44" name="PIO44" type="BiDi"/>
+        <pin num="45" name="PIO45" type="BiDi"/>
+        <pin num="46" name="PIO46" type="BiDi"/>
+        <pin num="47" name="PIO47" type="BiDi"/>
+        <pin num="48" name="PIO48" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="lm2611" part="LM2611">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM2611</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SW" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="NFB" type="output"/>
+        <pin num="4" name="~SHDN" type="input"/>
+        <pin num="5" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="signal_generator-rescue" part="C-Device">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="signal_generator-rescue" part="CP1-Device">
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="signal_generator-rescue" part="CP_Small-Device">
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP_Small-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="signal_generator-rescue" part="C_Small-Device">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="signal_generator-rescue" part="Conn_01x02_Male-Connector">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male-Connector</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="signal_generator-rescue" part="Conn_01x05_Male-Connector">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05_Male-Connector</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="signal_generator-rescue" part="L_Small-Device">
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Small-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="signal_generator-rescue" part="MBR0520LT-Diode">
+      <footprints>
+        <fp>D*SOD?123*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">MBR0520LT-Diode</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="signal_generator-rescue" part="R-Device">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="signal_generator-rescue" part="R_POT-Device">
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_POT-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="signal_generator-rescue" part="R_Small-Device">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="signal_generator-rescue" part="TL074-Amplifier_Operational">
+      <footprints>
+        <fp>SOIC*3.9x8.7mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+        <fp>SSOP*5.3x6.2mm*P0.65mm*</fp>
+        <fp>MSOP*3x3mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TL074-Amplifier_Operational</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V+" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="~" type="output"/>
+        <pin num="8" name="~" type="output"/>
+        <pin num="9" name="-" type="input"/>
+        <pin num="10" name="+" type="input"/>
+        <pin num="11" name="V-" type="power_in"/>
+        <pin num="12" name="+" type="input"/>
+        <pin num="13" name="-" type="input"/>
+        <pin num="14" name="~" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="signal_generator-rescue" part="TPS76901-Regulator_Linear">
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS76901-Regulator_Linear</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="~EN~" type="input"/>
+        <pin num="4" name="FB" type="input"/>
+        <pin num="5" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="signal_generator-rescue" part="TPS76933-Regulator_Linear">
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS76933-Regulator_Linear</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="~EN~" type="input"/>
+        <pin num="4" name="NC" type="NotConnected"/>
+        <pin num="5" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="tps72301" part="TPS72301">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS72301</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="IN" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NR" type="input"/>
+        <pin num="5" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="cmods7-25">
+      <uri>/home/lukas/01_Studium/02_DigiSys_CAE/Projektaufgabe/signal_generator_pcb/signal_generator/cmods7-25.lib</uri>
+    </library>
+    <library logical="lm2611">
+      <uri>/home/lukas/01_Studium/02_DigiSys_CAE/Projektaufgabe/signal_generator_pcb/signal_generator/lm2611.lib</uri>
+    </library>
+    <library logical="signal_generator-rescue">
+      <uri>/home/lukas/01_Studium/02_DigiSys_CAE/Projektaufgabe/signal_generator_pcb/signal_generator/signal_generator-rescue.lib</uri>
+    </library>
+    <library logical="tps72301">
+      <uri>/home/lukas/01_Studium/02_DigiSys_CAE/Projektaufgabe/signal_generator_pcb/signal_generator/tps72301.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GNDA">
+      <node ref="R106" pin="2"/>
+      <node ref="J202" pin="4"/>
+      <node ref="R108" pin="2"/>
+      <node ref="R104" pin="2"/>
+      <node ref="R105" pin="2"/>
+      <node ref="R107" pin="2"/>
+      <node ref="R103" pin="2"/>
+      <node ref="R204" pin="2"/>
+      <node ref="C212" pin="2"/>
+      <node ref="C103" pin="2"/>
+      <node ref="RV102" pin="3"/>
+      <node ref="RV103" pin="3"/>
+      <node ref="R113" pin="2"/>
+      <node ref="RV101" pin="3"/>
+      <node ref="R114" pin="2"/>
+      <node ref="RV104" pin="3"/>
+      <node ref="U102" pin="38"/>
+      <node ref="U102" pin="42"/>
+      <node ref="C203" pin="2"/>
+      <node ref="L203" pin="1"/>
+      <node ref="U203" pin="3"/>
+      <node ref="C204" pin="1"/>
+      <node ref="C102" pin="2"/>
+      <node ref="U204" pin="1"/>
+      <node ref="R206" pin="2"/>
+      <node ref="C213" pin="1"/>
+      <node ref="U203" pin="2"/>
+      <node ref="C101" pin="2"/>
+      <node ref="C208" pin="2"/>
+    </net>
+    <net code="2" name="Net-(C102-Pad1)">
+      <node ref="C102" pin="1"/>
+      <node ref="R102" pin="2"/>
+    </net>
+    <net code="3" name="/DB9P2">
+      <node ref="U101" pin="40"/>
+      <node ref="U102" pin="25"/>
+    </net>
+    <net code="4" name="VDDA">
+      <node ref="U102" pin="47"/>
+      <node ref="R203" pin="1"/>
+      <node ref="C212" pin="1"/>
+      <node ref="J202" pin="3"/>
+      <node ref="C203" pin="1"/>
+      <node ref="C208" pin="1"/>
+      <node ref="U103" pin="4"/>
+      <node ref="U203" pin="5"/>
+    </net>
+    <net code="5" name="/SLEEP">
+      <node ref="U102" pin="37"/>
+      <node ref="U101" pin="28"/>
+    </net>
+    <net code="6" name="/DB5P2">
+      <node ref="U102" pin="29"/>
+      <node ref="U101" pin="31"/>
+    </net>
+    <net code="7" name="/DB11P2">
+      <node ref="U102" pin="23"/>
+      <node ref="U101" pin="41"/>
+    </net>
+    <net code="8" name="Net-(C101-Pad1)">
+      <node ref="C101" pin="1"/>
+      <node ref="R101" pin="2"/>
+    </net>
+    <net code="9" name="/I_OUT1-">
+      <node ref="U102" pin="45"/>
+      <node ref="R105" pin="1"/>
+      <node ref="C104" pin="1"/>
+      <node ref="R110" pin="2"/>
+    </net>
+    <net code="10" name="/I_OUT2-">
+      <node ref="R112" pin="2"/>
+      <node ref="U102" pin="40"/>
+      <node ref="C105" pin="1"/>
+      <node ref="R106" pin="1"/>
+    </net>
+    <net code="11" name="Net-(R112-Pad1)">
+      <node ref="U103" pin="5"/>
+      <node ref="R112" pin="1"/>
+    </net>
+    <net code="12" name="/DAC_OUT1">
+      <node ref="R115" pin="1"/>
+      <node ref="U103" pin="1"/>
+      <node ref="RV103" pin="1"/>
+      <node ref="J102" pin="1"/>
+    </net>
+    <net code="13" name="/I_OUT1+">
+      <node ref="C104" pin="2"/>
+      <node ref="U102" pin="46"/>
+      <node ref="R107" pin="1"/>
+      <node ref="R109" pin="2"/>
+    </net>
+    <net code="14" name="/I_OUT2+">
+      <node ref="R108" pin="1"/>
+      <node ref="R111" pin="2"/>
+      <node ref="U102" pin="39"/>
+      <node ref="C105" pin="2"/>
+    </net>
+    <net code="15" name="Net-(R111-Pad1)">
+      <node ref="U103" pin="6"/>
+      <node ref="R111" pin="1"/>
+      <node ref="R116" pin="2"/>
+    </net>
+    <net code="16" name="/DAC_OUT2_BUF">
+      <node ref="J101" pin="2"/>
+      <node ref="R118" pin="1"/>
+      <node ref="U103" pin="14"/>
+    </net>
+    <net code="17" name="Net-(R114-Pad1)">
+      <node ref="R118" pin="2"/>
+      <node ref="R114" pin="1"/>
+      <node ref="U103" pin="13"/>
+    </net>
+    <net code="18" name="Net-(RV104-Pad2)">
+      <node ref="RV104" pin="2"/>
+      <node ref="U103" pin="12"/>
+    </net>
+    <net code="19" name="+5V">
+      <node ref="U101" pin="24"/>
+      <node ref="U203" pin="1"/>
+      <node ref="J201" pin="2"/>
+      <node ref="C201" pin="1"/>
+      <node ref="U201" pin="1"/>
+      <node ref="C202" pin="2"/>
+      <node ref="L201" pin="2"/>
+      <node ref="U202" pin="5"/>
+      <node ref="U202" pin="4"/>
+    </net>
+    <net code="20" name="/NC">
+      <node ref="U101" pin="22"/>
+      <node ref="U101" pin="21"/>
+      <node ref="U101" pin="27"/>
+      <node ref="U101" pin="26"/>
+      <node ref="U101" pin="23"/>
+    </net>
+    <net code="21" name="Net-(RV102-Pad2)">
+      <node ref="U101" pin="32"/>
+      <node ref="RV102" pin="2"/>
+    </net>
+    <net code="22" name="Net-(RV101-Pad2)">
+      <node ref="U101" pin="33"/>
+      <node ref="RV101" pin="2"/>
+    </net>
+    <net code="23" name="Net-(R113-Pad1)">
+      <node ref="R117" pin="2"/>
+      <node ref="R113" pin="1"/>
+      <node ref="U103" pin="9"/>
+    </net>
+    <net code="24" name="/DAC_OUT1_BUF">
+      <node ref="J101" pin="1"/>
+      <node ref="U103" pin="8"/>
+      <node ref="R117" pin="1"/>
+    </net>
+    <net code="25" name="Net-(RV103-Pad2)">
+      <node ref="RV103" pin="2"/>
+      <node ref="U103" pin="10"/>
+    </net>
+    <net code="26" name="/DAC_OUT2">
+      <node ref="J102" pin="2"/>
+      <node ref="U103" pin="7"/>
+      <node ref="RV104" pin="1"/>
+      <node ref="R116" pin="1"/>
+    </net>
+    <net code="27" name="Net-(R110-Pad1)">
+      <node ref="U103" pin="3"/>
+      <node ref="R110" pin="1"/>
+    </net>
+    <net code="28" name="Net-(R102-Pad1)">
+      <node ref="R102" pin="1"/>
+      <node ref="U102" pin="44"/>
+      <node ref="R104" pin="1"/>
+    </net>
+    <net code="29" name="/DB3P1">
+      <node ref="U101" pin="44"/>
+      <node ref="U102" pin="9"/>
+    </net>
+    <net code="30" name="/DB5P1">
+      <node ref="U101" pin="45"/>
+      <node ref="U102" pin="7"/>
+    </net>
+    <net code="31" name="/DB6P1">
+      <node ref="U102" pin="6"/>
+      <node ref="U101" pin="3"/>
+    </net>
+    <net code="32" name="/DB7P1">
+      <node ref="U102" pin="5"/>
+      <node ref="U101" pin="46"/>
+    </net>
+    <net code="33" name="Net-(R101-Pad1)">
+      <node ref="R101" pin="1"/>
+      <node ref="U102" pin="41"/>
+      <node ref="R103" pin="1"/>
+    </net>
+    <net code="34" name="/DB8P1">
+      <node ref="U101" pin="2"/>
+      <node ref="U102" pin="4"/>
+    </net>
+    <net code="35" name="Net-(U102-Pad36)">
+      <node ref="U102" pin="36"/>
+    </net>
+    <net code="36" name="Net-(U102-Pad35)">
+      <node ref="U102" pin="35"/>
+    </net>
+    <net code="37" name="/DB0P2">
+      <node ref="U102" pin="34"/>
+      <node ref="U101" pin="20"/>
+    </net>
+    <net code="38" name="/DB1P2">
+      <node ref="U101" pin="29"/>
+      <node ref="U102" pin="33"/>
+    </net>
+    <net code="39" name="/DB2P2">
+      <node ref="U101" pin="19"/>
+      <node ref="U102" pin="32"/>
+    </net>
+    <net code="40" name="/DB9P1">
+      <node ref="U101" pin="47"/>
+      <node ref="U102" pin="3"/>
+    </net>
+    <net code="41" name="/DB1P1">
+      <node ref="U102" pin="11"/>
+      <node ref="U101" pin="43"/>
+    </net>
+    <net code="42" name="/DB0P1">
+      <node ref="U102" pin="12"/>
+      <node ref="U101" pin="6"/>
+    </net>
+    <net code="43" name="/DB10P1">
+      <node ref="U102" pin="2"/>
+      <node ref="U101" pin="1"/>
+    </net>
+    <net code="44" name="/DB11P1">
+      <node ref="U101" pin="48"/>
+      <node ref="U102" pin="1"/>
+    </net>
+    <net code="45" name="+3V3">
+      <node ref="U201" pin="5"/>
+      <node ref="U102" pin="16"/>
+      <node ref="C207" pin="1"/>
+      <node ref="J202" pin="1"/>
+      <node ref="C206" pin="1"/>
+      <node ref="U102" pin="22"/>
+      <node ref="C205" pin="1"/>
+      <node ref="U102" pin="48"/>
+      <node ref="RV102" pin="1"/>
+      <node ref="RV101" pin="1"/>
+    </net>
+    <net code="46" name="/DB4P1">
+      <node ref="U102" pin="8"/>
+      <node ref="U101" pin="4"/>
+    </net>
+    <net code="47" name="Net-(R109-Pad1)">
+      <node ref="U103" pin="2"/>
+      <node ref="R109" pin="1"/>
+      <node ref="R115" pin="2"/>
+    </net>
+    <net code="48" name="Net-(U102-Pad14)">
+      <node ref="U102" pin="14"/>
+    </net>
+    <net code="49" name="Net-(U102-Pad13)">
+      <node ref="U102" pin="13"/>
+    </net>
+    <net code="50" name="/CLK_2">
+      <node ref="U102" pin="20"/>
+      <node ref="U102" pin="19"/>
+      <node ref="U101" pin="7"/>
+    </net>
+    <net code="51" name="/DB2P1">
+      <node ref="U102" pin="10"/>
+      <node ref="U101" pin="5"/>
+    </net>
+    <net code="52" name="Net-(C103-Pad1)">
+      <node ref="C103" pin="1"/>
+      <node ref="U102" pin="43"/>
+    </net>
+    <net code="53" name="/CLK_1">
+      <node ref="U102" pin="18"/>
+      <node ref="U102" pin="17"/>
+      <node ref="U101" pin="42"/>
+    </net>
+    <net code="54" name="/DB10P2">
+      <node ref="U102" pin="24"/>
+      <node ref="U101" pin="8"/>
+    </net>
+    <net code="55" name="/DB8P2">
+      <node ref="U102" pin="26"/>
+      <node ref="U101" pin="9"/>
+    </net>
+    <net code="56" name="/DB7P2">
+      <node ref="U101" pin="16"/>
+      <node ref="U102" pin="27"/>
+    </net>
+    <net code="57" name="/DB6P2">
+      <node ref="U102" pin="28"/>
+      <node ref="U101" pin="17"/>
+    </net>
+    <net code="58" name="/DB4P2">
+      <node ref="U102" pin="30"/>
+      <node ref="U101" pin="18"/>
+    </net>
+    <net code="59" name="/DB3P2">
+      <node ref="U102" pin="31"/>
+      <node ref="U101" pin="30"/>
+    </net>
+    <net code="60" name="GND">
+      <node ref="U202" pin="2"/>
+      <node ref="U201" pin="2"/>
+      <node ref="U201" pin="3"/>
+      <node ref="C201" pin="2"/>
+      <node ref="J201" pin="1"/>
+      <node ref="J202" pin="2"/>
+      <node ref="U102" pin="21"/>
+      <node ref="C206" pin="2"/>
+      <node ref="U102" pin="15"/>
+      <node ref="U101" pin="25"/>
+      <node ref="R202" pin="2"/>
+      <node ref="D201" pin="1"/>
+      <node ref="C202" pin="1"/>
+      <node ref="C211" pin="1"/>
+      <node ref="C205" pin="2"/>
+      <node ref="L203" pin="2"/>
+      <node ref="C207" pin="2"/>
+    </net>
+    <net code="61" name="VSSA">
+      <node ref="C213" pin="2"/>
+      <node ref="J202" pin="5"/>
+      <node ref="R205" pin="1"/>
+      <node ref="C204" pin="2"/>
+      <node ref="U204" pin="5"/>
+      <node ref="U103" pin="11"/>
+    </net>
+    <net code="62" name="Net-(R203-Pad2)">
+      <node ref="U203" pin="4"/>
+      <node ref="R204" pin="1"/>
+      <node ref="R203" pin="2"/>
+    </net>
+    <net code="63" name="Net-(C209-Pad1)">
+      <node ref="C209" pin="1"/>
+      <node ref="L202" pin="2"/>
+      <node ref="D201" pin="2"/>
+    </net>
+    <net code="64" name="Net-(C209-Pad2)">
+      <node ref="L201" pin="1"/>
+      <node ref="C209" pin="2"/>
+      <node ref="C210" pin="1"/>
+      <node ref="R201" pin="1"/>
+      <node ref="U202" pin="1"/>
+    </net>
+    <net code="65" name="Net-(U201-Pad4)">
+      <node ref="U201" pin="4"/>
+    </net>
+    <net code="66" name="Net-(R205-Pad2)">
+      <node ref="U204" pin="4"/>
+      <node ref="R206" pin="1"/>
+      <node ref="R205" pin="2"/>
+    </net>
+    <net code="67" name="Net-(C210-Pad2)">
+      <node ref="R201" pin="2"/>
+      <node ref="C210" pin="2"/>
+      <node ref="U202" pin="3"/>
+      <node ref="R202" pin="1"/>
+    </net>
+    <net code="68" name="-5V">
+      <node ref="U204" pin="2"/>
+      <node ref="U204" pin="3"/>
+      <node ref="L202" pin="1"/>
+      <node ref="C211" pin="2"/>
+    </net>
+  </nets>
+</export>

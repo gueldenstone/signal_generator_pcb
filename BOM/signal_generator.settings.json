@@ -1,0 +1,34 @@
+{
+    "type": "InteractiveHtmlBom settings",
+    "version": 1,
+    "pcbmetadata": {
+        "title": "signal_generator",
+        "revision": "",
+        "company": "",
+        "date": "2020-11-19 11:09:36"
+    },
+    "settings": {
+        "canvaslayout": "F",
+        "bomlayout": "left-right",
+        "bommode": "ungrouped",
+        "checkboxes": [
+            "placed"
+        ],
+        "checkboxStoredRefs": {
+            "placed": "52,50,35,33,39,38,34,41,44,30,29,49,51,47,40,48,32,37,36,46,45"
+        },
+        "darkMode": false,
+        "highlightpin1": false,
+        "redrawOnDrag": true,
+        "boardRotation": 0,
+        "renderPads": true,
+        "renderReferences": true,
+        "renderValues": true,
+        "renderSilkscreen": true,
+        "renderFabrication": false,
+        "renderDnpOutline": false,
+        "renderTracks": false,
+        "renderZones": false,
+        "darkenWhenChecked": "placed"
+    }
+}
